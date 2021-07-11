@@ -1,0 +1,42 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    padding: 20px 30px;
+}
+
+.col_left {
+    flex: .7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.col_right {
+    flex: .3;
+    text-align: center;
+}
+
+.col_right ul {
+    list-style: none;
+    margin-top: 0px;
+}
+
+.col_right ul li {
+    line-height: 70px;
+}
+
+.col_right ul li h2 {
+    font-size: 80px;
+    text-transform: uppercase;
+    opacity: .20;
+    font-weight: bolder;
+    font-family: 'Ultra', serif;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--primary-color);
+}

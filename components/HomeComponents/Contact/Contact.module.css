@@ -1,0 +1,43 @@
+.contact_container {
+  width: 1200px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.background_heading h1 {
+  font-size: 80px;
+  font-weight: bolder;
+  font-family: var(--secondary-font);
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--primary-color);
+  opacity: .10;
+}
+
+.heading {
+  margin-top: -50px;
+}
+
+.conatct_form {
+  width: 680px;
+  margin:  0 auto;
+  margin-top: 50px;
+}
+
+.form_field {
+  display: flex;
+  margin:  0 auto;
+  margin-left: 20px;
+}
+
+.warning {
+  color: orange;
+  margin-top: 10px;
+  margin-bottom: -20px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.hide {
+  display: none;
+}

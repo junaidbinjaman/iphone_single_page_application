@@ -1,0 +1,19 @@
+.testimonial_container {
+  width: 1200px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.testimonial_container h1 {
+  font-size: 80px;
+  font-family: var(--secondary-font);
+  font-weight: bolder;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--primary-color);
+  opacity: .10;
+}
+
+.heading {
+  margin-top: -50px;
+}
